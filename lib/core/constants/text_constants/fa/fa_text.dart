@@ -1,7 +1,7 @@
 class FaWord {
   static const String hello = 'سلام';
-  static const String activeTask = 'تسک های امروز';
-  static const String todayTasks = 'تسک فعال';
+  static const String todayTasks = 'تسک های امروز';
+  static const String activeTask = 'تسک فعال';
   static const String doneTasks = 'تسک های انجام شده';
   static const String todayActiveTasks = 'تسک فعال در امروز';
   static const String category = 'دسته بندی';
