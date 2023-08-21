@@ -16,7 +16,7 @@ class LargeText extends StatelessWidget {
     return Text(
       text,
       style: TextStyle(
-        fontSize: 24,
+        fontSize: 19,
         fontWeight: FontWeight.w700,
         color: color,
       ),
