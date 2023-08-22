@@ -15,13 +15,7 @@ class MainContainer extends StatelessWidget {
       child: Scaffold(
         backgroundColor: GlobalColor.background,
         body: SafeArea(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(
-              horizontal: 24,
-              vertical: 40,
-            ),
-            child: body,
-          ),
+          child: body,
         ),
       ),
     );
