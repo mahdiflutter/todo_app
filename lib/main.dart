@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:task_cut_app/features/feature_tasks/presentation/screens/calendar_screen.dart';
 import 'package:task_cut_app/features/feature_tasks/presentation/screens/home_screen.dart';
+import 'package:task_cut_app/features/feature_tasks/presentation/screens/timer_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +36,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         fontFamily: 'Shabnam',
       ),
-      home: const HomeScreen(),
+      home: const TimerScreen(),
     );
   }
 }
